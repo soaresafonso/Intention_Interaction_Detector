@@ -19,8 +19,8 @@ The file data_receiver.py is the final application that receives the data subscr
 On a server run (the packages must be run in their directory):
 ```
 roscore
-roslaunch openface2_ros openface2_ros.launch (in the directory where the package is located)
-roslaunch openpose_ros openpose_ros.launch (in the directory where the package is located)
+roslaunch openface2_ros openface2_ros.launch 
+roslaunch openpose_ros openpose_ros.launch
 ```
 
 On a computer connected to the same network as the server above (the packages must be run in their directory):
