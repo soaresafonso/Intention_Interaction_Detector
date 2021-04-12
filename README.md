@@ -16,15 +16,16 @@ The file data_receiver.py is the final application that receives the data subscr
 
 To run the final API follow the next steps.
 
-On a server run:
+On a server run (the packages must be run in their directory):
 ```
-**roscore
+roscore
 roslaunch openface2_ros openface2_ros.launch (in the directory where the package is located)
-roslaunch openpose_ros openpose_ros.launch (in the directory where the package is located)**
+roslaunch openpose_ros openpose_ros.launch (in the directory where the package is located)
 ```
 
-On a computer connected to the same network as the server above:
+On a computer connected to the same network as the server above (the packages must be run in their directory):
 
-**rosrun usb_cam usb_cam_node (in the directory where the package is located)
-rosrun data_receiver data_receiver.py (in the directory where the package is located)
-**
+```
+rosrun usb_cam usb_cam_node 
+rosrun data_receiver data_receiver.py
+```
