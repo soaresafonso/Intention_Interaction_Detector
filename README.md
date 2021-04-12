@@ -23,7 +23,6 @@ roslaunch openface2_ros openface2_ros.launch (in the directory where the package
 roslaunch openpose_ros openpose_ros.launch (in the directory where the package is located)
 
 
-
 On a computer connected to the same network as the server above:
 
 rosrun usb_cam usb_cam_node (in the directory where the package is located)
